@@ -2130,15 +2130,15 @@ function gw_make_waitlist_widget(e) {
 			: (a = 'Check your status'),
 		a
 			? (gw_waitlist_container.innerHTML = `
-            <div class="${gw_text_center}${gw_mx_auto}${gw_pb_2}">
+            <div style="margin-bottom:1.69rem;" class="${gw_text_center}${gw_mx_auto}">
                     <img style="width:3.6875rem;height:3.26156rem;" src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657e86fb26b42c8d9e52031b_Alqen%20Logo.webp" alt="Alqen Logo"/>
                     <img style="position:absolute; width:100%; height:100%; top:0; left:0; right:0; opacity:50%; " src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657d5b55dd1607d815d37814_Generate%20Glow.webp" alt="glow"/>
             </div>
-            <div style="color: #FFFFFF" class="${gw_main}${gw_text_2xl}${gw_pb_2}${gw_text_center}">
+            <div style="color: #FFFFFF; margin-bottom:0.75rem" class="${gw_main}${gw_text_2xl}${gw_text_center}">
                 ${a}
             </div>
             <div>
-                <p style="color: #8989A8" class="${gw_mb_4}${gw_text_center}${gw_text_xl}">Fill out the form and secure a spot on our waiting list!</p>
+                <p style="color: #8989A8; margin-bottom:1.75rem;" class="${gw_mb_4}${gw_text_center}${gw_text_xl}">Fill out the form and secure a spot on our waiting list!</p>
             </div>
         `)
 			: (gw_waitlist_container.innerHTML = ''),
@@ -2377,8 +2377,8 @@ function gw_make_waitlist_widget(e) {
             <div class="${gw_mt_4} ${gw_mb_1} ${gw_text_center}">
                 <button
                     id="primaryCTA"
-                    style="background: linear-gradient(180deg, #B039FF 0%, #9C39FF 100%); color: #FFF; border-radius:0.5rem; border: 1px solid #B266FF; box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.16) inset, 0px 4px 13px 0px rgba(156, 57, 255, 0.25), 1px 2px 12px 0px rgba(0, 0, 0, 0.07), 0px -4px 4px 0px rgba(0, 0, 0, 0.05) inset;"
-                    class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                    style="padding-top: .75rem; padding-bottom: 0.75rem;background: linear-gradient(180deg, #B039FF 0%, #9C39FF 100%); color: #FFF; border-radius:0.5rem; border: 1px solid #B266FF; box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.16) inset, 0px 4px 13px 0px rgba(156, 57, 255, 0.25), 1px 2px 12px 0px rgba(0, 0, 0, 0.07), 0px -4px 4px 0px rgba(0, 0, 0, 0.05) inset;"
+                    class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                     onclick="${_[e][0]}"
                 >
                     ${_[e][1]}
