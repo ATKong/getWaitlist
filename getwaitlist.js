@@ -2371,7 +2371,7 @@ function gw_make_waitlist_widget(e) {
             <div class="${gw_mt_4}${gw_text_center}">
                 <button
                     id="primaryCTA"
-                    style="background-color: linear-gradient(180deg, #B039FF 0%, #9C39FF 100%); color: #FFF; border-radius:0.5rem; border: 1px solid #B266FF; box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.16) inset, 0px 4px 13px 0px rgba(156, 57, 255, 0.25), 1px 2px 12px 0px rgba(0, 0, 0, 0.07), 0px -4px 4px 0px rgba(0, 0, 0, 0.05) inset;"
+                    style="background: linear-gradient(180deg, #B039FF 0%, #9C39FF 100%); color: #FFF; border-radius:0.5rem; border: 1px solid #B266FF; box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.16) inset, 0px 4px 13px 0px rgba(156, 57, 255, 0.25), 1px 2px 12px 0px rgba(0, 0, 0, 0.07), 0px -4px 4px 0px rgba(0, 0, 0, 0.05) inset;"
                     class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                     onclick="${_[e][0]}"
                 >
@@ -2757,7 +2757,7 @@ function gw_make_email_field() {
         ${
 					gw_waitlist_obj.remove_widget_headers
 						? ''
-						: `<span style="color: #8989A8" class="${gw_text_md}${gw_mb_3}">Email</span>`
+						: `<span style="color: #8989A8" class="${gw_text_md}${gw_mb_1}">Email</span>`
 				}
             <div class="${gw_text_center} ${gw_mt_4} ${gw_w_full}">
                 <input
