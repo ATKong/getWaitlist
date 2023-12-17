@@ -1775,6 +1775,7 @@ var gw_font_color,
 	gw_bg_red_50 = ' gw-bg-red-50 ',
 	gw_p_4 = ' gw-p-4 ',
 	gw_p_2 = ' gw-p-2 ',
+	gw_text_md = 'gw-text-md',
 	gw_text_red_800 = ' gw-text-red-800 ',
 	gw_w_1_8 = ' gw-w-1/8 ',
 	gw_mr_4 = ' gw-mr-4 ',
@@ -2146,11 +2147,11 @@ function gw_make_waitlist_widget(e) {
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
-												: `<span style="color: #8989A8" class="${gw_text_xl}">First Name</span>`
+												: `<span style="color: #8989A8" class="${gw_text_md}">First Name</span>`
 										}
                         <input
                             class="${gw_w_full}${gw_rounded}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}"
-                            style="color: rgba(255, 255, 255, 0.25);; border-color: #353553"
+                            style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
                             name="first_name"
                             placeholder="Enter your first name..."
                         />
@@ -2159,12 +2160,12 @@ function gw_make_waitlist_widget(e) {
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
-												: `<span style="color: ${gw_font_color}" class="${gw_text_sm}${gw_font_semibold}">Last Name</span>`
+												: `<span style="color: ${gw_font_color}" class="${gw_text_md}">Last Name</span>`
 										}
 
                         <input
                             class="${gw_w_full}${gw_rounded}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}${gw_bg_transparent}"
-                            style="color: rgba(255, 255, 255, 0.25);; border-color: #353553"
+                            style="color: rgba(255, 255, 255, 0.25);border-color: #353553;background: rgba(255, 255, 255, 0.04);"
                             name="last_name"
                             placeholder="Enter your last name..."
                         />
@@ -2756,12 +2757,12 @@ function gw_make_email_field() {
         ${
 					gw_waitlist_obj.remove_widget_headers
 						? ''
-						: `<span style="color: ${gw_font_color}" class="${gw_text_sm} ${gw_font_semibold}">Email</span>`
+						: `<span style="color: ${gw_font_color}" class="${gw_text_md}">Email</span>`
 				}
             <div class="${gw_text_center} ${gw_mt_2} ${gw_w_full}">
                 <input
                     class="${gw_w_full} ${gw_rounded} ${gw_text_sm} ${gw_transition} ${gw_duration_300} ${gw_border_solid}"
-                    style="color: rgba(255, 255, 255, 0.25);; border-color: #353553"
+                    style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
                     name="email"
                     placeholder="${
 											gw_optional_waiter_email_placeholder_value ||
