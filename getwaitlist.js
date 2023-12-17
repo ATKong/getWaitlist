@@ -2131,7 +2131,7 @@ function gw_make_waitlist_widget(e) {
 			? (gw_waitlist_container.innerHTML = `
             <div class="${gw_text_center}${gw_mx_auto}${gw_pb_2}">
                     <img style="width:3.6875rem;height:3.26156rem;" src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657e86fb26b42c8d9e52031b_Alqen%20Logo.webp" alt="Alqen Logo"/>
-                    <img style="position:absolute; width:100%; height:100%" src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657d5b55dd1607d815d37814_Generate%20Glow.webp" alt="glow"/>
+                    <img style="position:absolute; width:100%; height:100%; top:0; left:0; right:0; opacity:50%; " src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657d5b55dd1607d815d37814_Generate%20Glow.webp" alt="glow"/>
             </div>
             <div style="color: #FFFFFF" class="${gw_font_bold}${gw_text_2xl}${gw_pb_2}${gw_text_center}">
                 ${a}
@@ -2531,8 +2531,8 @@ function gw_make_waitlist_widget(e) {
         `)
 			: 'CHECK' === e &&
 			  (gw_waitlist_container.innerHTML += `
-            <div class="${gw_mt_4}${gw_text_center}${gw_text_sm}" style="color: ${gw_font_color}">
-                Haven't signed up yet? <span class="${hover_gw_cursor_pointer}${gw_font_bold}" onClick="gw_make_waitlist_widget('SUBMIT')">Sign Up<span>
+            <div class="${gw_mt_4}${gw_text_center}${gw_text_sm}" style="color: #8989A8;">
+                Haven't signed up yet? <span style="color: #9C39FF;" class="${hover_gw_cursor_pointer}" onClick="gw_make_waitlist_widget('SUBMIT')">Sign Up<span>
             </div>
         `),
 		gw_widget_shows_social_links &&
