@@ -2145,7 +2145,7 @@ function gw_make_waitlist_widget(e) {
 			a =
 				(gw_waitlist_obj.uses_firstname_lastname &&
 					(e = `
-                <div class="${gw_flex}${gw_flex_row}${gw_justify_center}${gw_w_full}${gw_mt_2}">
+                <div class="${gw_flex}${gw_flex_row}${gw_justify_center}${gw_mx_auto}${gw_mt_2}">
                     <div class="${gw_w_full}${gw_pr_2}">
                     ${
 											gw_waitlist_obj.remove_widget_headers
@@ -2159,7 +2159,7 @@ function gw_make_waitlist_widget(e) {
                             placeholder="Enter your first name..."
                         />
                     </div>
-                    <div class="${gw_w_full}${gw_pl_2}">
+                    <div class="${gw_mx_auto}${gw_pl_2}">
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
@@ -2756,7 +2756,7 @@ function gw_make_social_links() {
 }
 function gw_make_email_field() {
 	return `
-        <div class="${gw_w_full} ${gw_mt_4}">
+        <div class="${gw_mx_auto}">
         ${
 					gw_waitlist_obj.remove_widget_headers
 						? ''
