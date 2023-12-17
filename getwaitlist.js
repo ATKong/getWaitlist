@@ -2289,28 +2289,28 @@ function gw_make_waitlist_widget(e) {
 				? `This waitlist requires you to verify your email. To join, click the link we sent to ${gw_waiter_obj.email}.`
 				: 'You are on the waitlist!'),
 				(a = `
-                <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_w_full}${gw_text_center}" style="${gw_color_border_background()}">
-                    <dd class="${gw_mt_1}${gw_font_semibold}${gw_text_xl}" style="color: ${gw_font_color}; background-color: ${gw_background_color}">
+                <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_w_full}${gw_text_center}" style="#070726">
+                    <dd class="${gw_mt_1}${gw_font_semibold}${gw_text_xl}" style="color: ${gw_font_color}; background-color: #070726">
                         ${e}
                     </dd>
                 </div>`);
 		} else
 			a = `
-                <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_sm_w_1_2}${gw_text_center}" style="${gw_color_border_background()}">
-                    <dt class="${gw_text_sm}${gw_truncate}" style="color: ${gw_font_color}">
+                <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_sm_w_1_2}${gw_text_center}" style="#070726">
+                    <dt class="${gw_text_sm}${gw_truncate}" style="color: #FFF">
                         Your Position
                     </dt>
                     <dd class="${gw_mt_1}${gw_font_semibold}${
 				gw_waiter_obj.removed_date ? gw_text_2xl : gw_text_3xl
-			}" style="color: ${gw_font_color}; background-color: ${gw_background_color}">
+			}" style="color: #FFF; background-color: #070726">
                         ${e}
                     </dd>
                 </div>
                 <div class="${gw_px_4} ${gw_py_5} ${gw_rounded_md} ${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_mt_4}${gw_sm_mt_0}${gw_sm_w_1_2}${gw_text_center}" style="${gw_color_border_background()}">
-                    <dt class="${gw_text_sm}${gw_truncate}" style="color: ${gw_font_color}">
+                    <dt class="${gw_text_sm}${gw_truncate}" style="color: #FFF">
                         People on Waitlist
                     </dt>
-                    <dd class="${gw_mt_1}${gw_text_3xl}${gw_align_middle}${gw_font_semibold}" style="color: ${gw_font_color}; background-color: ${gw_background_color}">
+                    <dd class="${gw_mt_1}${gw_text_3xl}${gw_align_middle}${gw_font_semibold}" style="color: #FFF; background-color: #070726">
                         ${gw_waitlist_obj.statistics.current_signups}
                     </dd>
                 </div>
@@ -2322,20 +2322,20 @@ function gw_make_waitlist_widget(e) {
                     ${a}
                 </div>
                 <div class="${gw_mt_4}">
-                    <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_text_center}" style="${gw_color_border_background()}">
+                    <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_text_center}" style="#070726">
                         <dt class="${gw_text_sm} ${gw_truncate} ${gw_flex}${gw_flex_row}${gw_justify_center}">
-                            <div class="${gw_mr_2}${gw_self_center}" style="color: ${gw_font_color}">
+                            <div class="${gw_mr_2}${gw_self_center}" style="color: #FFF">
                                 Referral Link
                             </div>
                             <div
                                 class="${gw_flex}${gw_flex_row}${gw_rounded_md}${gw_text_xs}${gw_px_1}${gw_py_1}${hover_gw_cursor_pointer}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
-                                style="${gw_color_border_background()}"
+                                style="#070726"
                                 onClick="gw_copyButton()"
                             >
-                                <span id="getWaitlistgw_copyButton" class="noselect">Copy</span>
+                                <span id="getWaitlistgw_copyButton" style="color:#FFF" class="noselect">Copy</span>
                             </div>
                         </dt>
-                        <dd class="${gw_mt_1}${gw_text_xl}${gw_font_semibold}" style="color: ${gw_font_color}; background-color: ${gw_background_color}">
+                        <dd class="${gw_mt_1}${gw_text_xl}${gw_font_semibold}" style="color: #FFF; background-color: #070726">
                             <span id="statusReferralgw_copyButton">
                                 ${gw_waiter_obj.referral_link}
                             </span>
@@ -2465,7 +2465,7 @@ function gw_make_waitlist_widget(e) {
 					n.push(`
                     <div class="${t} ${e}">
                         <button
-                            style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
+                            style="background-color: white; color: #FFF; border: 1px solid #3F3F5B;"
                             class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_linkedin()" 
                         >
@@ -2517,7 +2517,7 @@ function gw_make_waitlist_widget(e) {
                 </div>
             `),
 			(gw_waitlist_container.innerHTML += `
-            <div class="${gw_mt_4}${gw_text_center}${gw_flex}${gw_flex_col}${gw_text_sm}" style="color: ${gw_font_color}">
+            <div class="${gw_mt_4}${gw_text_center}${gw_flex}${gw_flex_col}${gw_text_sm}" style="color: #FFF">
                 Share and refer your friends to move up in line!
                 ${e}
             </div>
@@ -2641,7 +2641,7 @@ function gw_make_question_answer_field(e) {
         `;
 }
 function gw_twitter_svg_for_cta() {
-	return `<?xml version="1.0" encoding="UTF-8"?><svg width="20" height="20" enable-background="new 0 0 248 204" viewBox="0 0 248 204" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">        <path class="st0" d="m221.95 51.29c0.15 2.17 0.15 4.34 0.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-0.04c-27.44 0.04-54.31-7.82-77.41-22.64 3.99 0.48 8 0.72 12.02 0.73 22.74 0.02 44.83-7.61 62.72-21.66-21.61-0.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-0.87-23.56-4.76-40.51-25.46-40.51-49.5v-0.64c7.02 3.91 14.88 6.08 22.92 6.32-22.19-14.83-29.03-44.35-15.63-67.43 25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z" fill="#FF39"/></svg>`;
+	return `<?xml version="1.0" encoding="UTF-8"?><svg width="20" height="20" viewBox="0 0 248 204" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">        <path class="st0" d="m221.95 51.29c0.15 2.17 0.15 4.34 0.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-0.04c-27.44 0.04-54.31-7.82-77.41-22.64 3.99 0.48 8 0.72 12.02 0.73 22.74 0.02 44.83-7.61 62.72-21.66-21.61-0.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-0.87-23.56-4.76-40.51-25.46-40.51-49.5v-0.64c7.02 3.91 14.88 6.08 22.92 6.32-22.19-14.83-29.03-44.35-15.63-67.43 25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z" fill="#FFF"/></svg>`;
 }
 function gw_whatsapp_svg_for_cta() {
 	return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="20" height="20" fill-rule="nonzero"><g fill="${gw_button_font_color}" fill-opacity="0.0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M15,3c-6.627,0 -12,5.373 -12,12c0,2.25121 0.63234,4.35007 1.71094,6.15039l-1.60352,5.84961l5.97461,-1.56836c1.74732,0.99342 3.76446,1.56836 5.91797,1.56836c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.89258,9.40234c0.195,0 0.39536,-0.00119 0.56836,0.00781c0.214,0.005 0.44692,0.02067 0.66992,0.51367c0.265,0.586 0.84202,2.05608 0.91602,2.20508c0.074,0.149 0.12644,0.32453 0.02344,0.51953c-0.098,0.2 -0.14897,0.32105 -0.29297,0.49805c-0.149,0.172 -0.31227,0.38563 -0.44727,0.51563c-0.149,0.149 -0.30286,0.31238 -0.13086,0.60938c0.172,0.297 0.76934,1.27064 1.65234,2.05664c1.135,1.014 2.09263,1.32561 2.39063,1.47461c0.298,0.149 0.47058,0.12578 0.64258,-0.07422c0.177,-0.195 0.74336,-0.86411 0.94336,-1.16211c0.195,-0.298 0.39406,-0.24644 0.66406,-0.14844c0.274,0.098 1.7352,0.8178 2.0332,0.9668c0.298,0.149 0.49336,0.22275 0.56836,0.34375c0.077,0.125 0.07708,0.72006 -0.16992,1.41406c-0.247,0.693 -1.45991,1.36316 -2.00391,1.41016c-0.549,0.051 -1.06136,0.24677 -3.56836,-0.74023c-3.024,-1.191 -4.93108,-4.28828 -5.08008,-4.48828c-0.149,-0.195 -1.21094,-1.61031 -1.21094,-3.07031c0,-1.465 0.76811,-2.18247 1.03711,-2.48047c0.274,-0.298 0.59492,-0.37109 0.79492,-0.37109z"></path></g></g></svg>`;
