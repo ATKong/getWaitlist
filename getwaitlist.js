@@ -2756,7 +2756,7 @@ function gw_make_social_links() {
 }
 function gw_make_email_field() {
 	return `
-        <div class="${gw_mx_auto}">
+        <div class="${gw_mx_auto} ${gw_w_full}">
         ${
 					gw_waitlist_obj.remove_widget_headers
 						? ''
