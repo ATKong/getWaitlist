@@ -2147,10 +2147,10 @@ function gw_make_waitlist_widget(e) {
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
-												: `<span style="color: #8989A8" class="${gw_text_md}">First Name</span>`
+												: `<span style="color: #8989A8" class="${gw_text_md}${gw_mb_3}">First Name</span>`
 										}
                         <input
-                            class="${gw_w_full}${gw_rounded_md}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}"
+                            class="${gw_w_full}${gw_rounded_md}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}${gw_mb_4}"
                             style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
                             name="first_name"
                             placeholder="Enter your first name..."
@@ -2160,7 +2160,7 @@ function gw_make_waitlist_widget(e) {
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
-												: `<span style="color: #8989A8" class="${gw_text_md}">Last Name</span>`
+												: `<span style="color: #8989A8" class="${gw_text_md}${gw_mb_3}">Last Name</span>`
 										}
 
                         <input
@@ -2753,11 +2753,11 @@ function gw_make_social_links() {
 }
 function gw_make_email_field() {
 	return `
-        <div class="${gw_w_full} ${gw_mt_2}">
+        <div class="${gw_w_full} ${gw_mt_4}">
         ${
 					gw_waitlist_obj.remove_widget_headers
 						? ''
-						: `<span style="color: #8989A8" class="${gw_text_md}">Email</span>`
+						: `<span style="color: #8989A8" class="${gw_text_md}${gw_mb_3}">Email</span>`
 				}
             <div class="${gw_text_center} ${gw_mt_4} ${gw_w_full}">
                 <input
