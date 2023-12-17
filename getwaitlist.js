@@ -1787,6 +1787,7 @@ var gw_font_color,
 	gw_mb_1 = ' gw-mb-1 ',
 	gw_sm_mt_0 = ' sm:gw-mt-0 ',
 	gw_sm_w_1_2 = ' sm:gw-w-1/2 ',
+	gw_main = 'main',
 	gw_sm_flex_row = ' sm:gw-flex-row ',
 	gw_sm_space_x_4 = ' sm:gw-space-x-4 ',
 	gw_waitlist_container =
@@ -2133,7 +2134,7 @@ function gw_make_waitlist_widget(e) {
                     <img style="width:3.6875rem;height:3.26156rem;" src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657e86fb26b42c8d9e52031b_Alqen%20Logo.webp" alt="Alqen Logo"/>
                     <img style="position:absolute; width:100%; height:100%; top:0; left:0; right:0; opacity:50%; " src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657d5b55dd1607d815d37814_Generate%20Glow.webp" alt="glow"/>
             </div>
-            <div style="color: #FFFFFF" class="${gw_font_bold}${gw_text_2xl}${gw_pb_2}${gw_text_center}">
+            <div style="color: #FFFFFF" class="${gw_main}${gw_text_2xl}${gw_pb_2}${gw_text_center}">
                 ${a}
             </div>
             <div>
