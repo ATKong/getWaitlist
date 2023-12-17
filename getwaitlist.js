@@ -2160,7 +2160,7 @@ function gw_make_waitlist_widget(e) {
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
-												: `<span style="color: ${gw_font_color}" class="${gw_text_md}">Last Name</span>`
+												: `<span style="color: #8989A8" class="${gw_text_md}">Last Name</span>`
 										}
 
                         <input
@@ -2520,9 +2520,9 @@ function gw_make_waitlist_widget(e) {
 	(gw_waitlist_container.innerHTML += gw_error_handling_area),
 		'SUBMIT' === e
 			? (gw_waitlist_container.innerHTML += `
-            <div class="${gw_mt_4}${gw_text_center}${gw_text_sm}" style="color: #8989A8>
-                Signed up before? <span style="color: #9C39FF;" class="${hover_gw_cursor_pointer}" onClick="gw_make_waitlist_widget('CHECK')">Check your Status<span>
-            </div>
+            <div class="${gw_mt_4} ${gw_text_center} ${gw_text_sm}" style="color: #8989A8;">
+    Signed up before? <span style="color: #9C39FF;" class="${hover_gw_cursor_pointer}" onClick="gw_make_waitlist_widget('CHECK')">Check your Status</span>
+</div>
         `)
 			: 'CHECK' === e &&
 			  (gw_waitlist_container.innerHTML += `
@@ -2757,9 +2757,9 @@ function gw_make_email_field() {
         ${
 					gw_waitlist_obj.remove_widget_headers
 						? ''
-						: `<span style="color: ${gw_font_color}" class="${gw_text_md}">Email</span>`
+						: `<span style="color: #8989A8" class="${gw_text_md}">Email</span>`
 				}
-            <div class="${gw_text_center} ${gw_mt_2} ${gw_w_full}">
+            <div class="${gw_text_center} ${gw_mt_4} ${gw_w_full}">
                 <input
                     class="${gw_w_full} ${gw_rounded} ${gw_text_sm} ${gw_transition} ${gw_duration_300} ${gw_border_solid}"
                     style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
