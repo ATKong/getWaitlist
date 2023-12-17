@@ -2322,7 +2322,7 @@ function gw_make_waitlist_widget(e) {
                     ${a}
                 </div>
                 <div class="${gw_mt_4}">
-                    <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_text_center}" style="#070726">
+                    <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_text_center}" style="background:#070726; border: 1px solid #9C39FF">
                         <dt class="${gw_text_sm} ${gw_truncate} ${gw_flex}${gw_flex_row}${gw_justify_center}">
                             <div class="${gw_mr_2}${gw_self_center}" style="color: #FFF">
                                 Referral Link
@@ -2332,7 +2332,7 @@ function gw_make_waitlist_widget(e) {
                                 style="background:#070726; border: 1px solid #9C39FF"
                                 onClick="gw_copyButton()"
                             >
-                                <span id="getWaitlistgw_copyButton" style="color:#FFF; border: 1px solid #9C39FF" class="noselect">Copy</span>
+                                <span id="getWaitlistgw_copyButton" style="color:#FFF;" class="noselect">Copy</span>
                             </div>
                         </dt>
                         <dd class="${gw_mt_1}${gw_text_xl}${gw_font_semibold}" style="color: #FFF; background-color: #070726">
@@ -2465,7 +2465,7 @@ function gw_make_waitlist_widget(e) {
 					n.push(`
                     <div class="${t} ${e}">
                         <button
-                            style="background-color: white; color: #FFF; border: 1px solid #3F3F5B;"
+                            style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
                             class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_linkedin()" 
                         >
