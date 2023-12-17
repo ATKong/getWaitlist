@@ -1793,7 +1793,7 @@ var gw_font_color,
 		('WIDGET_1' == gw_widget_type
 			? (gw_waitlist_top_container.innerHTML = `
         <div style="position:relative; border-radius: 1.5rem;border: 1px solid rgba(255, 255, 255, 0.28);background: #070726;box-shadow: 0px 0px 193.4px 0px rgba(5, 0, 25, 0.75);" class="${gw_flex}${gw_flex_col}${gw_rounded_md}${gw_p_7}${gw_w_full}${gw_max_w_600px}" style='background-color:white' id="getWaitlistInnerContainer">
-            <div class="${gw_flex}${gw_flex_row}${gw_justify_center}${gw_mb_4}">
+            <div class="${gw_py_10}${gw_flex}${gw_flex_row}${gw_justify_center}${gw_mb_4}">
                 ${gw_make_spinner('#4937E8', '24px', '24px')}
             </div>
             <div class="${gw_flex}${gw_flex_row}${gw_justify_center}">
@@ -2327,7 +2327,7 @@ function gw_make_waitlist_widget(e) {
                                 Referral Link
                             </div>
                             <div
-                                class="${gw_flex}${gw_flex_row}${gw_rounded_md}${gw_text_xs}${gw_px_1}${gw_py_1}${hover_gw_cursor_pointer}${focus_gw_ring_2}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                                class="${gw_flex}${gw_flex_row}${gw_rounded_md}${gw_text_xs}${gw_px_1}${gw_py_1}${hover_gw_cursor_pointer}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                                 style="${gw_color_border_background()}"
                                 onClick="gw_copyButton()"
                             >
@@ -2377,7 +2377,7 @@ function gw_make_waitlist_widget(e) {
                 <button
                     id="primaryCTA"
                     style="background: linear-gradient(180deg, #B039FF 0%, #9C39FF 100%); color: #FFF; border-radius:0.5rem; border: 1px solid #B266FF; box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.16) inset, 0px 4px 13px 0px rgba(156, 57, 255, 0.25), 1px 2px 12px 0px rgba(0, 0, 0, 0.07), 0px -4px 4px 0px rgba(0, 0, 0, 0.05) inset;"
-                    class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                    class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                     onclick="${_[e][0]}"
                 >
                     ${_[e][1]}
@@ -2417,7 +2417,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_tweet()"
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_twitter_svg_for_cta()}&nbsp;&nbsp;Twitter</span>
@@ -2429,7 +2429,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_whatsapp()"
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_whatsapp_svg_for_cta()}&nbsp;&nbsp;Whatsapp</span>
@@ -2441,7 +2441,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_telegram()" 
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_telegram_svg_for_cta()}&nbsp;&nbsp;Telegram</span>
@@ -2453,7 +2453,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_reddit()" 
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_reddit_svg_for_cta()}&nbsp;&nbsp;Reddit</span>
@@ -2465,7 +2465,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_linkedin()" 
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_linkedin_svg_for_cta()}&nbsp;&nbsp;LinkedIn</span>
@@ -2477,7 +2477,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_facebook()" 
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_facebook_svg_for_cta()}&nbsp;&nbsp;Facebook</span>
@@ -2489,7 +2489,7 @@ function gw_make_waitlist_widget(e) {
                     <div class="${t} ${e}">
                         <button
                             style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
-                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                            class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_email()" 
                         >
                             <span class="${gw_flex}${gw_flex_row}${gw_items_center}${gw_justify_center}${gw_w_full}">${gw_email_svg_for_cta()}&nbsp;&nbsp;Email</span>
@@ -2562,7 +2562,7 @@ function gw_make_waitlist_widget_type_2(e) {
                     <button
                         id="primaryCTA"
                         style="background-color: ${gw_button_color}; color: ${gw_button_font_color}; border-top-right-radius: 0.375rem; border-bottom-right-radius: 0.375rem;"
-                        class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_font_medium}${focus_gw_ring_2}${gw_border}${gw_border_transparent}${gw_w_1_2}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
+                        class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_1_2}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                         onclick="gw_post_waiter_obj()"
                     >
                         ${gw_signup_button_title}
