@@ -1,6 +1,26 @@
+@font-face {
+	font-family: 'BrittiSans-Medium';
+	src: url('https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/6567ce1f8de0adc9c209f01d_subset-BrittiSans-Medium.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter-Regular';
+	src: url('https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/6567ce1f8de0adc9c209f027_subset-Inter-Regular.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .gw-mx-auto {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.main {
+	font-family: 'BrittiSans-Medium', serif;
 }
 .gw-my-1 {
 	margin-top: 0.25rem;
@@ -235,7 +255,7 @@
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
-	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+	font-family: 'Inter-Regular', system-ui, -apple-system, BlinkMacSystemFont,
 		'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
 		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	font-feature-settings: normal;
