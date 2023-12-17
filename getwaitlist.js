@@ -2296,7 +2296,7 @@ function gw_make_waitlist_widget(e) {
                 </div>`);
 		} else
 			a = `
-                <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_sm_w_1_2}${gw_text_center}" style="#070726">
+                <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_sm_w_1_2}${gw_text_center}" style="background:#070726; border: 1px solid #9C39FF">
                     <dt class="${gw_text_sm}${gw_truncate}" style="color: #FFF">
                         Your Position
                     </dt>
@@ -2306,7 +2306,7 @@ function gw_make_waitlist_widget(e) {
                         ${e}
                     </dd>
                 </div>
-                <div class="${gw_px_4} ${gw_py_5} ${gw_rounded_md} ${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_mt_4}${gw_sm_mt_0}${gw_sm_w_1_2}${gw_text_center}" style="${gw_color_border_background()}">
+                <div class="${gw_px_4} ${gw_py_5} ${gw_rounded_md} ${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_mt_4}${gw_sm_mt_0}${gw_sm_w_1_2}${gw_text_center}" style="background:#070726; border: 1px solid #9C39FF">
                     <dt class="${gw_text_sm}${gw_truncate}" style="color: #FFF">
                         People on Waitlist
                     </dt>
@@ -2329,10 +2329,10 @@ function gw_make_waitlist_widget(e) {
                             </div>
                             <div
                                 class="${gw_flex}${gw_flex_row}${gw_rounded_md}${gw_text_xs}${gw_px_1}${gw_py_1}${hover_gw_cursor_pointer}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
-                                style="#070726"
+                                style="background:#070726; border: 1px solid #9C39FF"
                                 onClick="gw_copyButton()"
                             >
-                                <span id="getWaitlistgw_copyButton" style="color:#FFF" class="noselect">Copy</span>
+                                <span id="getWaitlistgw_copyButton" style="color:#FFF; border: 1px solid #9C39FF" class="noselect">Copy</span>
                             </div>
                         </dt>
                         <dd class="${gw_mt_1}${gw_text_xl}${gw_font_semibold}" style="color: #FFF; background-color: #070726">
@@ -2417,7 +2417,7 @@ function gw_make_waitlist_widget(e) {
 					n.push(`
                     <div class="${t} ${e}">
                         <button
-                            style="background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
+                            style="padding-bottom:0.6rem;padding-top:0.6rem;background-color: transparent; color: #FFF; border: 1px solid #3F3F5B;"
                             class="${gw_text_center}${gw_items_center}${gw_px_4}${gw_py_2}${gw_font_bold}${gw_text_sm}${gw_rounded_md}${gw_font_medium}${gw_border}${gw_border_transparent}${gw_w_full}${hover_gw_opacity_80}${gw_transition}${gw_duration_300}"
                             onclick="gw_tweet()"
                         >
@@ -2644,7 +2644,7 @@ function gw_twitter_svg_for_cta() {
 	return `<?xml version="1.0" encoding="UTF-8"?><svg width="20" height="20" viewBox="0 0 248 204" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">        <path class="st0" d="m221.95 51.29c0.15 2.17 0.15 4.34 0.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-0.04c-27.44 0.04-54.31-7.82-77.41-22.64 3.99 0.48 8 0.72 12.02 0.73 22.74 0.02 44.83-7.61 62.72-21.66-21.61-0.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-0.87-23.56-4.76-40.51-25.46-40.51-49.5v-0.64c7.02 3.91 14.88 6.08 22.92 6.32-22.19-14.83-29.03-44.35-15.63-67.43 25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z" fill="#FFF"/></svg>`;
 }
 function gw_whatsapp_svg_for_cta() {
-	return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="20" height="20" fill-rule="nonzero"><g fill="${gw_button_font_color}" fill-opacity="0.0" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M15,3c-6.627,0 -12,5.373 -12,12c0,2.25121 0.63234,4.35007 1.71094,6.15039l-1.60352,5.84961l5.97461,-1.56836c1.74732,0.99342 3.76446,1.56836 5.91797,1.56836c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.89258,9.40234c0.195,0 0.39536,-0.00119 0.56836,0.00781c0.214,0.005 0.44692,0.02067 0.66992,0.51367c0.265,0.586 0.84202,2.05608 0.91602,2.20508c0.074,0.149 0.12644,0.32453 0.02344,0.51953c-0.098,0.2 -0.14897,0.32105 -0.29297,0.49805c-0.149,0.172 -0.31227,0.38563 -0.44727,0.51563c-0.149,0.149 -0.30286,0.31238 -0.13086,0.60938c0.172,0.297 0.76934,1.27064 1.65234,2.05664c1.135,1.014 2.09263,1.32561 2.39063,1.47461c0.298,0.149 0.47058,0.12578 0.64258,-0.07422c0.177,-0.195 0.74336,-0.86411 0.94336,-1.16211c0.195,-0.298 0.39406,-0.24644 0.66406,-0.14844c0.274,0.098 1.7352,0.8178 2.0332,0.9668c0.298,0.149 0.49336,0.22275 0.56836,0.34375c0.077,0.125 0.07708,0.72006 -0.16992,1.41406c-0.247,0.693 -1.45991,1.36316 -2.00391,1.41016c-0.549,0.051 -1.06136,0.24677 -3.56836,-0.74023c-3.024,-1.191 -4.93108,-4.28828 -5.08008,-4.48828c-0.149,-0.195 -1.21094,-1.61031 -1.21094,-3.07031c0,-1.465 0.76811,-2.18247 1.03711,-2.48047c0.274,-0.298 0.59492,-0.37109 0.79492,-0.37109z"></path></g></g></svg>`;
+	return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="20" height="20" fill-rule="nonzero"><g fill="${gw_button_font_color}" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M15,3c-6.627,0 -12,5.373 -12,12c0,2.25121 0.63234,4.35007 1.71094,6.15039l-1.60352,5.84961l5.97461,-1.56836c1.74732,0.99342 3.76446,1.56836 5.91797,1.56836c6.627,0 12,-5.373 12,-12c0,-6.627 -5.373,-12 -12,-12zM10.89258,9.40234c0.195,0 0.39536,-0.00119 0.56836,0.00781c0.214,0.005 0.44692,0.02067 0.66992,0.51367c0.265,0.586 0.84202,2.05608 0.91602,2.20508c0.074,0.149 0.12644,0.32453 0.02344,0.51953c-0.098,0.2 -0.14897,0.32105 -0.29297,0.49805c-0.149,0.172 -0.31227,0.38563 -0.44727,0.51563c-0.149,0.149 -0.30286,0.31238 -0.13086,0.60938c0.172,0.297 0.76934,1.27064 1.65234,2.05664c1.135,1.014 2.09263,1.32561 2.39063,1.47461c0.298,0.149 0.47058,0.12578 0.64258,-0.07422c0.177,-0.195 0.74336,-0.86411 0.94336,-1.16211c0.195,-0.298 0.39406,-0.24644 0.66406,-0.14844c0.274,0.098 1.7352,0.8178 2.0332,0.9668c0.298,0.149 0.49336,0.22275 0.56836,0.34375c0.077,0.125 0.07708,0.72006 -0.16992,1.41406c-0.247,0.693 -1.45991,1.36316 -2.00391,1.41016c-0.549,0.051 -1.06136,0.24677 -3.56836,-0.74023c-3.024,-1.191 -4.93108,-4.28828 -5.08008,-4.48828c-0.149,-0.195 -1.21094,-1.61031 -1.21094,-3.07031c0,-1.465 0.76811,-2.18247 1.03711,-2.48047c0.274,-0.298 0.59492,-0.37109 0.79492,-0.37109z"></path></g></g></svg>`;
 }
 function gw_telegram_svg_for_cta() {
 	return `<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg viewBox="0,0,24,24" width="20px" height="20px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><path id="telegram-1" d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" fill="${gw_button_font_color}"/></svg>`;
@@ -2659,7 +2659,7 @@ function gw_reddit_svg_for_cta() {
 	return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.286-1.84.746-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058c0 1.193.975 2.163 2.174 2.163 1.198 0 2.172-.97 2.172-2.163s-.975-2.164-2.172-2.164c-.92 0-1.704.574-2.021 1.379l-4.329-1.015c-.189-.046-.381.063-.44.249l-1.654 5.207c-2.838.034-5.409.798-7.3 2.025-.474-.438-1.103-.712-1.799-.712-1.465 0-2.656 1.187-2.656 2.646 0 .97.533 1.811 1.317 2.271-.052.282-.086.567-.086.857 0 3.911 4.808 7.093 10.719 7.093s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81.832-.447 1.405-1.312 1.405-2.318zm-17.224 1.816c0-.868.71-1.575 1.582-1.575.872 0 1.581.707 1.581 1.575s-.709 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179l-.013-.003-.013.003c-1.777 0-3.028-.386-3.824-1.179-.145-.144-.145-.379 0-.523.145-.145.381-.145.526 0 .65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962.145-.145.381-.144.526 0 .145.145.145.379 0 .524zm-.189-3.095c-.872 0-1.581-.706-1.581-1.574 0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z" fill="${gw_button_font_color}"/></svg>`;
 }
 function gw_linkedin_svg_for_cta() {
-	return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="${gw_button_font_color}" fill-opacity="0.0"/></svg>`;
+	return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="${gw_button_font_color}"/></svg>`;
 }
 var gw_error_handling_area = `
     <div class="${gw_mt_4} ${gw_rounded_md} ${gw_bg_red_50} ${gw_p_4}" style="display:none">
