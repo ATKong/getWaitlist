@@ -2128,7 +2128,7 @@ function gw_make_waitlist_widget(e) {
 			: (a = 'Check your status'),
 		a
 			? (gw_waitlist_container.innerHTML = `
-            <div class="${gw_text - center}${gw_mx_auto}${gw_pb_2}">
+            <div class="${gw_text_center}${gw_mx_auto}${gw_pb_2}">
                     <img style="width:3.6875rem;height:3.26156rem;" src="https://uploads-ssl.webflow.com/6567ce1f8de0adc9c209ef96/657e86fb26b42c8d9e52031b_Alqen%20Logo.webp" alt="Alqen Logo"/>
             </div>
             <div style="color: #FFFFFF" class="${gw_font_bold}${gw_text_2xl}${gw_pb_2}${gw_text_center}">
