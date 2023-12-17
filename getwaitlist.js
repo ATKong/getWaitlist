@@ -1791,7 +1791,7 @@ var gw_font_color,
 	gw_waitlist_container =
 		('WIDGET_1' == gw_widget_type
 			? (gw_waitlist_top_container.innerHTML = `
-        <div class="${gw_flex}${gw_flex_col}${gw_rounded_md}${gw_p_7}${gw_w_full}${gw_max_w_600px}" style='background-color:white' id="getWaitlistInnerContainer">
+        <div style="border-radius: 1.5rem;border: 1px solid rgba(255, 255, 255, 0.28);background: #070726;box-shadow: 0px 0px 193.4px 0px rgba(5, 0, 25, 0.75);" class="${gw_flex}${gw_flex_col}${gw_rounded_md}${gw_p_7}${gw_w_full}${gw_max_w_600px}" style='background-color:white' id="getWaitlistInnerContainer">
             <div class="${gw_flex}${gw_flex_row}${gw_justify_center}${gw_mb_4}">
                 ${gw_make_spinner('#4937E8', '24px', '24px')}
             </div>
