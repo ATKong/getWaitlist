@@ -2146,7 +2146,7 @@ function gw_make_waitlist_widget(e) {
 				(gw_waitlist_obj.uses_firstname_lastname &&
 					(e = `
                 <div class="${gw_flex}${gw_flex_row}${gw_justify_center}${gw_mx_auto}${gw_mt_2}">
-                    <div class="${gw_w_full}${gw_pr_2}">
+                    <div class="${gw_mx_auto}${gw_pr_2}">
                     ${
 											gw_waitlist_obj.remove_widget_headers
 												? ''
@@ -2762,7 +2762,7 @@ function gw_make_email_field() {
 						? ''
 						: `<span style="color: #8989A8" class="${gw_text_md}${gw_mb_1}">Email</span>`
 				}
-            <div class="${gw_text_center} ${gw_mt_4} ${gw_w_full}">
+            <div class="${gw_text_center} ${gw_mt_1} ${gw_w_full}">
                 <input
                     class="${gw_w_full}${gw_rounded_md}${gw_text_sm} ${gw_transition} ${gw_duration_300} ${gw_border_solid} ${gw_border}"
                     style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
