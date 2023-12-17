@@ -2150,9 +2150,7 @@ function gw_make_waitlist_widget(e) {
 												: `<span style="color: #8989A8" class="${gw_text_md}">First Name</span>`
 										}
                         <input
-                            class="${gw_w_full}${
-						gw - rounded - md
-					}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}"
+                            class="${gw_w_full}${gw_rounded_md}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}"
                             style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
                             name="first_name"
                             placeholder="Enter your first name..."
@@ -2166,9 +2164,7 @@ function gw_make_waitlist_widget(e) {
 										}
 
                         <input
-                            class="${gw_w_full}${
-						gw - rounded - md
-					}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}"
+                            class="${gw_w_full}${gw_rounded_md}${gw_text_sm}${gw_transition}${gw_duration_300}${gw_mt_1}${gw_border_solid}${gw_border}"
                             style="color: rgba(255, 255, 255, 0.25);border-color: #353553;background: rgba(255, 255, 255, 0.04);"
                             name="last_name"
                             placeholder="Enter your last name..."
@@ -2765,9 +2761,7 @@ function gw_make_email_field() {
 				}
             <div class="${gw_text_center} ${gw_mt_4} ${gw_w_full}">
                 <input
-                    class="${gw_w_full} ${
-		gw - rounded - md
-	} ${gw_text_sm} ${gw_transition} ${gw_duration_300} ${gw_border_solid} ${gw_border}"
+                    class="${gw_w_full}${gw_rounded_md}${gw_text_sm} ${gw_transition} ${gw_duration_300} ${gw_border_solid} ${gw_border}"
                     style="color: rgba(255, 255, 255, 0.25); border-color: #353553; background: rgba(255, 255, 255, 0.04);"
                     name="email"
                     placeholder="${
