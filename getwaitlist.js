@@ -2297,7 +2297,7 @@ function gw_make_waitlist_widget(e) {
 		} else
 			a = `
                 <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_sm_w_1_2}${gw_text_center}" style="background:#070726; border: 1px solid #9C39FF">
-                    <dt class="${gw_text_sm}${gw_truncate}" style="color: #FFF">
+                    <dt class="${gw_text_md}${gw_truncate}" style="color: #FFF">
                         Your Position
                     </dt>
                     <dd class="${gw_mt_1}${gw_font_semibold}${
@@ -2307,7 +2307,7 @@ function gw_make_waitlist_widget(e) {
                     </dd>
                 </div>
                 <div class="${gw_px_4} ${gw_py_5} ${gw_rounded_md} ${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_mt_4}${gw_sm_mt_0}${gw_sm_w_1_2}${gw_text_center}" style="background:#070726; border: 1px solid #9C39FF">
-                    <dt class="${gw_text_sm}${gw_truncate}" style="color: #FFF">
+                    <dt class="${gw_text_md}${gw_truncate}" style="color: #FFF">
                         People on Waitlist
                     </dt>
                     <dd class="${gw_mt_1}${gw_text_3xl}${gw_align_middle}${gw_font_semibold}" style="color: #FFF; background-color: #070726">
@@ -2323,7 +2323,7 @@ function gw_make_waitlist_widget(e) {
                 </div>
                 <div class="${gw_mt_4}">
                     <div class="${gw_px_4}${gw_py_5}${gw_rounded_md}${gw_border}${gw_overflow_hidden}${sm_gw_p_6}${gw_text_center}" style="background:#070726; border: 1px solid #9C39FF">
-                        <dt class="${gw_text_sm} ${gw_truncate} ${gw_flex}${gw_flex_row}${gw_justify_center}">
+                        <dt style="margin-bottom:0.75rem;" class="${gw_text_md} ${gw_truncate} ${gw_flex}${gw_flex_row}${gw_justify_center}">
                             <div class="${gw_mr_2}${gw_self_center}" style="color: #FFF">
                                 Referral Link
                             </div>
